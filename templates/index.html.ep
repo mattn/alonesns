@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>ぼっちSNS</title>
+<link media="all" rel="stylesheet" href="alonesns.css" type="text/css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="alonesns.js"></script>
+</head>
+<body>
+  <div id="content">
+    <h1>ぼっちSNS</h1>
+    <label id="message" for="status">今なにしてまんねん？</label>
+    <input type="text" id="status" name="status" />
+    <div id="statuses"></div>
+  </div>
+</body>
+</html>
+<!-- vim:set et: -->
